@@ -2,7 +2,7 @@ import os
 from urllib.parse import urlparse as urlParse
 
 
-LORA_PATH = "/root/working/ComfyUI/models/lora"
+LORA_PATH = "/root/working/ComfyUI/models/loras"
 CLIP_PATH = "/root/working/ComfyUI/models/clip"
 VAE_PATH = "/root/working/ComfyUI/models/vae"
 UNET_PATH = "/root/working/ComfyUI/models/unet"
