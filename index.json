@@ -1,53 +1,52 @@
 [
-    {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/Wan22Animate/Wan2_2-Animate-14B_fp8_scaled_e4m3fn_KJ_v2.safetensors",
-        "destination": "diffusion_models"
-    },
- {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
-        "destination": "vae"
-    },
-     {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-        "destination": "clip"
-    },
-         {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-        "destination": "clip"
-    },
-             {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
-        "destination": "clip_vision"
-    },
-                 {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors",
-        "destination": "loras"
-    },
-                     {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx",
-        "destination": "detection"
-    },
-                         {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx",
-        "destination": "detection"
-    },
-                             {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/onnx-community/yolov10m/resolve/main/onnx/model.onnx",
-        "destination": "detection"
-    },
-        },
-                             {
-        "platform": "huggingface",
-        "model": "https://huggingface.co/Kijai/sam2-safetensors/resolve/main/sam2.1_hiera_base_plus-fp16.safetensors",
-        "destination": "sam"
-    },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/Wan22Animate/Wan2_2-Animate-14B_fp8_scaled_e4m3fn_KJ_v2.safetensors",
+    "destination": "diffusion_models"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "destination": "vae"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "destination": "clip"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "destination": "clip"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "destination": "clip_vision"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors",
+    "destination": "loras"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx",
+    "destination": "detection"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx",
+    "destination": "detection"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/onnx-community/yolov10m/resolve/main/onnx/model.onnx",
+    "destination": "detection"
+  },
+  {
+    "platform": "huggingface",
+    "model": "https://huggingface.co/Kijai/sam2-safetensors/resolve/main/sam2.1_hiera_base_plus-fp16.safetensors",
+    "destination": "sam"
+  }
 ]
