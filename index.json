@@ -2,7 +2,7 @@
   {
     "platform": "huggingface",
     "model": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/Wan22Animate/Wan2_2-Animate-14B_fp8_scaled_e4m3fn_KJ_v2.safetensors",
-    "destination": "diffusion_models"
+    "destination": "unet"
   },
   {
     "platform": "huggingface",
@@ -22,7 +22,7 @@
   {
     "platform": "huggingface",
     "model": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
-    "destination": "clip_vision"
+    "destination": "clip"
   },
   {
     "platform": "huggingface",
@@ -32,21 +32,21 @@
   {
     "platform": "huggingface",
     "model": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx",
-    "destination": "detection"
+    "destination": "controlnet"
   },
   {
     "platform": "huggingface",
     "model": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx",
-    "destination": "detection"
+    "destination": "controlnet"
   },
   {
     "platform": "huggingface",
     "model": "https://huggingface.co/onnx-community/yolov10m/resolve/main/onnx/model.onnx",
-    "destination": "detection"
+    "destination": "controlnet"
   },
   {
     "platform": "huggingface",
     "model": "https://huggingface.co/Kijai/sam2-safetensors/resolve/main/sam2.1_hiera_base_plus-fp16.safetensors",
-    "destination": "sam"
+    "destination": "controlnet"
   }
 ]
